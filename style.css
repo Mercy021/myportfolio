@@ -24,9 +24,9 @@ a{
     width: 100%;
     height: 100%;
     /* text-decoration: none; */
-    color: white; 
+     color: white; 
     
-}
+}  
 
 .nav-list ul{
    list-style: none;
@@ -63,54 +63,4 @@ h2{
     align-items: center;
     justify-content: center;
     min-height: 100vh;  
-}
-.wrapper .txt{
-    margin-left: 15px;
-    line-height: 80px;
-    overflow: hidden;
-    height: 90px;
-
-}
-.txt li{
-    list-style: none;
-    font-size: 60px;
-    font-weight: 500;
-    color: white;
-    top: 0%;
-    position: relative;
-    animation: typing 1.5s stops(10) infinite;
-}
-
-.wrapper .txt li span{
-    position: relative;
-}
-.wrapper .txt li span::after{
-    content: "";
-    position: absolute;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    border-left: 2px solid #fc6d6d;
-    animation: slide 6s steps(4) infinite;
-}
- @keyframes slide {
-    100%{
-        top: -360px;
-    }
-}
-body{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh; 
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-h3{
-    align-items: center;
-    justify-content: center;
-    color: white;
 }
